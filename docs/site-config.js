@@ -8,4 +8,14 @@
 window.SITE_CONFIG = {
   web3formsAccessKey: "YOUR_WEB3FORMS_ACCESS_KEY",
   siteUrl: "https://www.gangaresidency.co.in",
+
+  // Shown in email subject/from when someone submits a contact or popup form
+  propertyName: "Ganga Residency",
+  formSubject: "Ganga Residency Website Lead",
+  formFromName: "Ganga Residency Website",
+  formDefaultMessage: "Interested in Ganga Residency - Site Visit",
+
+  // Pre-filled WhatsApp message when visitor clicks the floating WhatsApp button
+  whatsappNumber: "919650655124",
+  whatsappWelcomeMessage: "Get More Details About Ganga Residency",
 };
