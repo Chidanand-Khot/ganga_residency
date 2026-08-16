@@ -26,4 +26,7 @@ window.SITE_CONFIG = {
 >>>>>>> Stashed changes
   whatsappNumber: "919650655124",
   whatsappWelcomeMessage: "Get More Details About Ganga Residency",
+
+  sitePlanPdf: "assets/downloads/site-plan.pdf",
+  brochurePdf: "assets/downloads/ganga-residency-brochure.pdf",
 };
