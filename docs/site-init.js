@@ -3,8 +3,6 @@
   var key = (config.web3formsAccessKey || "").trim();
   var siteUrl = (config.siteUrl || "").replace(/\/$/, "");
   var propertyName = config.propertyName || "Ganga Residency";
-<<<<<<< Updated upstream
-=======
   var placeholderKey = "YOUR_WEB3FORMS_ACCESS_KEY";
   var uuidPattern =
     /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -15,7 +13,6 @@
       "[Ganga Residency] Form not configured: set web3formsAccessKey in site-config.js. Get a free key at https://web3forms.com"
     );
   }
->>>>>>> Stashed changes
 
   document.querySelectorAll('form[action*="web3forms.com"]').forEach(function (form) {
     var access = form.querySelector('input[name="access_key"]');
