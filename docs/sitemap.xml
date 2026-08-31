@@ -276,12 +276,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/index.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://gangaresidency.co.in/blog/kanwar-yatra-garh-ganga-mela-property-demand.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -398,6 +392,68 @@
   <url>
     <loc>https://gangaresidency.co.in/blog/why-invest-plots-near-ganga-expressway.html</loc>
     <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Newly Added Blog Posts -->
+  <url>
+    <loc>https://gangaresidency.co.in/blog/building-bye-laws-setback-rules-ganga-residency.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/corner-plot-vs-park-facing-plot-ganga-residency-price-premium-resale.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/down-payment-vs-construction-linked-plan-ganga-residency.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-booking-to-registry-document-checklist.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-emi-calculator-sample-payment-schedules-explained.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-nearest-schools-hospitals-and-daily-essentials-map.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-vs-yamuna-expressway-plotted-townships-price-and-growth-comparison.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/gst-and-other-hidden-charges-when-buying-a-plot-at-ganga-residency.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/how-to-choose-the-right-block-sector-at-ganga-residency.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/what-happens-if-you-miss-an-installment-at-ganga-residency-penalty-grace-period-rules.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
