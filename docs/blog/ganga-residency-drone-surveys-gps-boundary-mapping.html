@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Ganga Residency: Comprehensive Guide to Drone Surveys & GPS Boundary Mapping</title>
+    <meta name="description" content="Explore an in-depth analysis of RTK drone surveys, GPS boundary demarcation, GIS mapping, and cadastral accuracy powering plots at Ganga Residency, Garhmukteshwar."/>
+    <meta name="keywords" content="ganga residency drone surveys, gps boundary mapping garhmukteshwar, rtk land surveying ncr, cadastral mapping uttar pradesh, digital land demarcation"/>
+    <link rel="canonical" href="https://gangaresidency.co.in/blog/drone-surveys-gps-boundary-mapping.html"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="author" content="Ganga Residency"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:site_name" content="Ganga Residency"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Ganga Residency: Comprehensive Guide to Drone Surveys & GPS Boundary Mapping"/>
+    <meta property="og:description" content="An exhaustive technical walkthrough of sub-centimeter RTK drone surveying, GCP placement, and satellite boundary verification at Ganga Residency."/>
+    <meta property="og:url" content="https://gangaresidency.co.in/blog/drone-surveys-gps-boundary-mapping.html"/>
+    <meta property="og:image" content="../assets/images/innerpage/bg/page-bg.jpg"/>
+    <meta property="article:published_time" content="2026-09-08T10:00:00+05:30"/>
+    <meta property="article:modified_time" content="2026-09-08T10:00:00+05:30"/>
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Ganga Residency: Comprehensive Guide to Drone Surveys & GPS Boundary Mapping"/>
+    <meta name="twitter:description" content="Deep dive into RTK GNSS technology, orthomosaic modeling, and secure land demarcation at Ganga Residency."/>
+    <meta name="twitter:image" content="../assets/images/innerpage/bg/page-bg.jpg"/>
+
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css"/>
+    <link rel="stylesheet" href="../assets/css/plugins/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../assets/css/spacings.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css"/>
+
+    <style>
+        /* Preserved Header Branding Styles */
+        .site-branding,
+        .site-branding .brand-logo {
+            max-width: none !important;
+            width: auto !important;
+            display: inline-block !important;
+        }
+
+        .brand-logo-text {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0d1527;
+            letter-spacing: -0.02em;
+            white-space: nowrap !important;
+            line-height: 1.2;
+            display: inline-block;
+        }
+
+        /* Unique Color Theme: Cyber Tech & Precision Geospatial Blue */
+        :root {
+            --primary-navy: #090d16;
+            --secondary-navy: #1e293b;
+            --accent-cyan: #06b6d4;
+            --accent-blue: #3b82f6;
+            --light-bg: #f8fafc;
+            --text-dark: #0f172a;
+            --card-border: #e2e8f0;
+        }
+
+        .article-wrap { 
+            padding: 60px 0 95px; 
+            background: var(--light-bg);
+        }
+
+        .article-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 55px;
+            box-shadow: 0 20px 45px rgba(9, 13, 22, 0.05);
+            border: 1px solid var(--card-border);
+        }
+
+        @media (max-width: 767px) {
+            .article-card { padding: 25px 20px; }
+        }
+
+        .article-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(6, 182, 212, 0.1);
+            color: var(--accent-cyan);
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 6px 18px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 18px;
+        }
+
+        .article-body { 
+            color: #334155; 
+            font-size: 1.08rem; 
+            line-height: 1.9; 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .article-body h1 { 
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 2.6rem; 
+            color: var(--primary-navy); 
+            margin-bottom: 22px; 
+            line-height: 1.22; 
+        }
+
+        @media (max-width: 767px) {
+            .article-body h1 { font-size: 1.85rem; }
+        }
+
+        .article-body h2 { 
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.8rem; 
+            color: var(--primary-navy); 
+            margin: 3.2rem 0 1.25rem; 
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .article-body h2::before {
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 24px;
+            background: var(--accent-cyan);
+            border-radius: 4px;
+        }
+
+        .article-body h3 {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.35rem;
+            color: var(--secondary-navy);
+            margin: 2.2rem 0 1rem;
+        }
+
+        .article-body p { margin-bottom: 1.5rem; }
+        .article-body a { 
+            color: var(--accent-cyan); 
+            text-decoration: none; 
+            font-weight: 600; 
+            border-bottom: 2px solid rgba(6, 182, 212, 0.2);
+            transition: all 0.2s ease;
+        }
+        .article-body a:hover { 
+            color: var(--primary-navy); 
+            border-bottom-color: var(--primary-navy);
+        }
+
+        .lead-callout {
+            background: linear-gradient(135deg, #f1f5f9 0%, #ffffff 100%);
+            border-left: 4px solid var(--accent-blue);
+            padding: 24px 28px;
+            border-radius: 0 12px 12px 0;
+            margin-bottom: 2.2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+
+        .lead-callout p {
+            margin: 0;
+            font-size: 1.12rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        /* 3-Column Feature Cards */
+        .grid-3-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 2.2rem 0;
+        }
+
+        @media (max-width: 991px) {
+            .grid-3-col { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 767px) {
+            .grid-3-col { grid-template-columns: 1fr; }
+        }
+
+        .feature-card-item {
+            background: #ffffff;
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 26px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .feature-card-item:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-cyan);
+        }
+
+        .feature-card-item h4 {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.15rem;
+            color: var(--primary-navy);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-card-item h4 i {
+            color: var(--accent-cyan);
+            font-size: 1.1rem;
+        }
+
+        .feature-card-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.6;
+        }
+
+        /* Info Card Grid (2 Columns) */
+        .grid-2-col {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin: 2.2rem 0;
+        }
+
+        @media (max-width: 767px) {
+            .grid-2-col { grid-template-columns: 1fr; }
+        }
+
+        .info-card-box {
+            background: #ffffff;
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+
+        .info-card-box h4 {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.2rem;
+            color: var(--primary-navy);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-card-box h4 i {
+            color: var(--accent-blue);
+        }
+
+        .info-card-box p {
+            margin: 0;
+            font-size: 0.97rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        /* Media Container for Images */
+        .content-media-box {
+            margin: 2.8rem 0;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--card-border);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+            background: #fff;
+        }
+
+        .content-media-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .media-caption {
+            padding: 14px 20px;
+            background: #f8fafc;
+            font-size: 0.9rem;
+            color: #64748b;
+            text-align: center;
+            font-weight: 500;
+            border-top: 1px solid var(--card-border);
+        }
+
+        /* Comparison Table */
+        .table-responsive-wrapper {
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--card-border);
+            margin: 2.8rem 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #ffffff;
+            font-size: 0.98rem;
+        }
+
+        .comparison-table th {
+            background: var(--primary-navy);
+            color: #ffffff;
+            padding: 18px 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.6px;
+            text-align: left;
+        }
+
+        .comparison-table td {
+            padding: 16px 20px;
+            border-bottom: 1px solid #f1f5f9;
+            color: #334155;
+            vertical-align: top;
+        }
+
+        .comparison-table tr:nth-child(even) td { background-color: #f8fafc; }
+        .comparison-table tr:last-child td { border-bottom: none; }
+
+        /* Step Process Checklist Container */
+        .checklist-container {
+            background: #ffffff;
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 32px;
+            margin: 2.5rem 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+        }
+
+        .checklist-item {
+            display: flex;
+            gap: 18px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .checklist-item:last-child { margin-bottom: 0; }
+
+        .check-badge {
+            width: 34px;
+            height: 34px;
+            background: rgba(6, 182, 212, 0.1);
+            color: var(--accent-cyan);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-top: 2px;
+        }
+
+        .check-content h5 {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.18rem;
+            color: var(--primary-navy);
+            margin-bottom: 6px;
+        }
+
+        .check-content p {
+            margin: 0;
+            font-size: 0.98rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        /* FAQ Accordion Box Style */
+        .faq-box-container {
+            margin: 2.5rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .faq-item-card {
+            background: #ffffff;
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item-card:hover {
+            border-color: var(--accent-cyan);
+        }
+
+        .faq-item-card h4 {
+            font-family: 'Cal Sans', sans-serif;
+            font-size: 1.15rem;
+            color: var(--primary-navy);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .faq-item-card h4 i {
+            color: var(--accent-cyan);
+            font-size: 1rem;
+        }
+
+        .faq-item-card p {
+            margin: 0;
+            font-size: 0.96rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        /* High Converting CTA Box */
+        .dual-cta-box {
+            background: linear-gradient(135deg, var(--primary-navy) 0%, #020617 100%);
+            border-radius: 20px;
+            padding: 45px 35px;
+            margin: 3.5rem 0 1rem;
+            text-align: center;
+            color: #ffffff;
+            box-shadow: 0 15px 35px rgba(9, 13, 22, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dual-cta-box h3 {
+            font-family: 'Cal Sans', sans-serif;
+            color: #ffffff;
+            font-size: 1.9rem;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .dual-cta-box p {
+            color: #94a3b8;
+            font-size: 1.08rem;
+            margin-bottom: 28px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-group-flex {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-main-action {
+            background: var(--accent-cyan);
+            color: #090d16 !important;
+            padding: 14px 30px;
+            border-radius: 10px;
+            font-weight: 700;
+            text-decoration: none !important;
+            border-bottom: none !important;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 18px rgba(6, 182, 212, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-main-action:hover { background: #ffffff; color: var(--primary-navy) !important; transform: translateY(-2px); }
+
+        .btn-sec-action {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff !important;
+            padding: 14px 30px;
+            border-radius: 10px;
+            font-weight: 700;
+            text-decoration: none !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-sec-action:hover { background: rgba(255, 255, 255, 0.2); transform: translateY(-2px); }
+    </style>
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "Ganga Residency: Drone Surveys & GPS Boundary Mapping Explained",
+      "description": "Comprehensive technical guide on RTK drone photogrammetry, GPS boundary demarcation, and cadastral accuracy at Ganga Residency, Garhmukteshwar.",
+      "image": "https://gangaresidency.co.in/assets/images/innerpage/bg/page-bg.jpg",
+      "author": { "@type": "Organization", "name": "Ganga Residency", "url": "https://gangaresidency.co.in/" },
+      "publisher": { "@type": "Organization", "name": "Ganga Residency", "url": "https://gangaresidency.co.in/" },
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-09-08",
+      "mainEntityOfPage": "https://gangaresidency.co.in/blog/drone-surveys-gps-boundary-mapping.html"
+    }
+    </script>
+</head>
+<body>
+<div class="offcanvas__overlay"></div>
+
+<!-- Header (Exact Match Preserved) -->
+<header class="header-area header-three">
+    <div class="header-navigation">
+        <div class="container-fluid">
+            <div class="primary-menu">
+                <div class="site-branding">
+                    <a href="https://gangaresidency.co.in/" class="brand-logo">
+                        <span class="brand-logo-text">Ganga Residency</span>
+                    </a>
+                </div>
+                <div class="theme-nav-menu">
+                    <div class="theme-menu-top d-block d-xl-none">
+                        <div class="site-branding">
+                            <a href="https://gangaresidency.co.in/" class="brand-logo"><span class="brand-logo-text">Ganga Residency</span></a>
+                        </div>
+                    </div>
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/">Home</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/overview.html">Overview</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/pricing.html">Price List</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/highlights.html">Highlights</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/amenities.html">Amenities</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/master-plan.html">Master Plan</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/location.html">Location</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/blog/">Blog</a></li>
+                            <li class="menu-item"><a href="https://gangaresidency.co.in/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-right-item">
+                    <div class="nav-button d-none d-md-block">
+                        <a href="tel:+919650655124" class="theme-btn style-one">+91-9650655124<i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                    <div class="navbar-toggler"><span></span><span></span><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="smooth-wrapper">
+    <div id="smooth-content">
+        <main>
+            <!-- Hero Breadcrumb Banner -->
+            <section class="page-hero bg_cover p-r z-1" data-src="../assets/images/innerpage/bg/page-bg.jpg">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="page-content text-content text-center">
+                                <h1>Drone Surveys &amp; GPS Boundary Mapping</h1>
+                                <ul>
+                                    <li><a href="https://gangaresidency.co.in/">Home</a> <i class="fa-solid fa-arrow-right"></i></li>
+                                    <li><a href="https://gangaresidency.co.in/blog/">Blog</a> <i class="fa-solid fa-arrow-right"></i></li>
+                                    <li>Drone Survey &amp; GPS Technology Guide</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Content Area -->
+            <section class="article-wrap">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <article class="article-card article-body">
+                                
+                                <div class="article-badge">
+                                    <i class="fa-solid fa-satellite"></i> Advanced Land Engineering &amp; Cadastral Mapping
+                                </div>
+
+                                <h1>Ganga Residency: Drone Surveys &amp; GPS Boundary Mapping Explained</h1>
+
+                                <div class="lead-callout">
+                                    <p>
+                                        In contemporary real estate development, transparency and absolute dimensional integrity are the bedrock of investor confidence. At <a href="https://gangaresidency.co.in/">Ganga Residency</a> in Garhmukteshwar, we have fully integrated RTK (Real-Time Kinematic) drone photogrammetry and high-precision GPS coordinate mapping to eliminate ambiguity, prevent boundary disputes, and guarantee centimeter-level plot accuracy across our entire gated township.
+                                    </p>
+                                </div>
+
+                                <p>
+                                    As discerning buyers increasingly demand verifiable land records alongside physical infrastructure, understanding how digital surveying works provides complete peace of mind. Before reviewing plot dimensions on our official <a href="https://gangaresidency.co.in/pricing.html">Price List</a> or examining the layout on our <a href="https://gangaresidency.co.in/master-plan.html">Master Plan Page</a>, it is vital to examine the sophisticated surveying technology that underpins every square yard of our gated community.
+                                </p>
+
+                                <!-- Embedded Infrastructure Image -->
+                                <div class="content-media-box">
+                                    <img src="../assets/images/amenities/infrastructure.jpeg" alt="Ganga Residency Infrastructure Surveyed via RTK Drones"/>
+                                    <div class="media-caption">Precision-engineered township roads, underground services, and demarcated plots mapped with sub-centimeter GPS accuracy.</div>
+                                </div>
+
+                                <h2>1. The Evolution of Land Measurement: From Manual Chains to RTK Satellites</h2>
+                                <p>
+                                    Traditional Indian real estate plotting historically relied on physical steel chains, magnetic prismatic compasses, and manual triangulation by revenue patwaris. While functional in past decades, these legacy methods introduced inherent human error, cumulative measurement drift, and discrepancies over large tracts of land.
+                                </p>
+                                <p>
+                                    Ganga Residency revolutionizes this process by leveraging satellite-linked GNSS (Global Navigation Satellite Systems) rovers and autonomous Unmanned Aerial Vehicles (UAVs). This guarantees that every individual plot boundary corresponds precisely with government cadastral records and legal registry deeds down to the millimeter.
+                                </p>
+
+                                <div class="grid-3-col">
+                                    <div class="feature-card-item">
+                                        <h4><i class="fa-solid fa-crosshairs"></i> Centimeter Precision</h4>
+                                        <p>Eliminate measurement deviations using real-time kinematic ground station correction and dual-frequency satellite receivers.</p>
+                                    </div>
+                                    <div class="feature-card-item">
+                                        <h4><i class="fa-solid fa-shield-halved"></i> Zero Encroachment Risk</h4>
+                                        <p>Permanent electronic and physical boundary pillars ensure secure plot perimeters that remain immutable across generations.</p>
+                                    </div>
+                                    <div class="feature-card-item">
+                                        <h4><i class="fa-solid fa-chart-line"></i> Rapid Topography</h4>
+                                        <p>Aerial orthomosaic mapping yields precise elevation profiles, drainage slopes, and stormwater grading data instantly.</p>
+                                    </div>
+                                </div>
+
+                                <h2>2. The Core Technologies Powering Our Surveys</h2>
+                                <p>
+                                    Our surveying infrastructure relies on a synergy of cutting-edge hardware and GIS software. Understanding these components highlights our commitment to engineering excellence:
+                                </p>
+
+                                <div class="grid-2-col">
+                                    <div class="info-card-box">
+                                        <h4><i class="fa-solid fa-jet-fighter"></i> RTK UAV Drones</h4>
+                                        <p>High-end quadcopters equipped with PPK/RTK modules capture geotagged aerial photographs simultaneously while referencing base station coordinates, bypassing atmospheric interference.</p>
+                                    </div>
+                                    <div class="info-card-box">
+                                        <h4><i class="fa-solid fa-tower-broadcast"></i> GNSS Base Stations</h4>
+                                        <p>Ground-based reference receivers stationed on site compute real-time error corrections, transmitting them instantly to drones and handheld rovers for pinpoint accuracy.</p>
+                                    </div>
+                                </div>
+
+                                <h2>3. Step-by-Step Workflow of Drone Photogrammetry at Ganga Residency</h2>
+                                <p>
+                                    Executing a professional drone survey requires a rigorous multi-stage workflow managed by certified geospatial engineers:
+                                </p>
+
+                                <div class="checklist-container">
+                                    <div class="checklist-item">
+                                        <div class="check-badge">1</div>
+                                        <div class="check-content">
+                                            <h5>Mission Planning &amp; Flight Path Design</h5>
+                                            <p>Autonomous flight vectors are programmed into GIS software, setting precise overlap parameters, altitude limits, and camera shutter intervals to ensure complete photographic coverage.</p>
+                                        </div>
+                                    </div>
+                                    <div class="checklist-item">
+                                        <div class="check-badge">2</div>
+                                        <div class="check-content">
+                                            <h5>Ground Control Point (GCP) Deployment</h5>
+                                            <p>High-contrast physical ground targets are distributed strategically across the land parcel and measured with RTK rovers to anchor the aerial survey to exact global coordinates.</p>
+                                        </div>
+                                    </div>
+                                    <div class="checklist-item">
+                                        <div class="check-badge">3</div>
+                                        <div class="check-content">
+                                            <h5>Aerial Capture &amp; Photogrammetric Stitching</h5>
+                                            <p>Drones capture thousands of ultra-high-resolution images. These are processed through advanced photogrammetry engines to generate orthomosaic maps and 3D digital terrain models (DTMs).</p>
+                                        </div>
+                                    </div>
+                                    <div class="checklist-item">
+                                        <div class="check-badge">4</div>
+                                        <div class="check-content">
+                                            <h5>Cadastral Superimposition &amp; Verification</h5>
+                                            <p>The finished digital map is overlaid onto official government revenue maps (Shajra) and cross-verified against our master blueprint on our <a href="https://gangaresidency.co.in/master-plan.html">Master Plan Page</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Embedded Multimedia Container -->
+                                <div class="content-media-box">
+                                    <img src="../assets/images/amenities/expressway.jpeg" alt="Strategic Regional Connectivity and Survey Mapping Corridors"/>
+                                    <div class="media-caption">Arterial road networks and regional transit corridors mapped and integrated into the broader Garhmukteshwar development grid.</div>
+                                </div>
+
+                                <h2>4. Comparative Analysis: Manual Surveying vs. RTK Drone Mapping</h2>
+                                <p>
+                                    To fully appreciate the technical leap implemented at Ganga Residency, review the comparative breakdown contrasting conventional land surveying with modern geospatial techniques:
+                                </p>
+
+                                <div class="table-responsive-wrapper">
+                                    <table class="comparison-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Evaluation Metric</th>
+                                                <th>Conventional Manual Surveying</th>
+                                                <th>RTK Drone &amp; GPS Mapping (Ganga Residency)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Measurement Accuracy</strong></td>
+                                                <td>Prone to human tape reading errors and cumulative chain drift (centimeters to meters).</td>
+                                                <td>Sub-centimeter precision locked via real-time satellite RTK corrections.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Survey Speed &amp; Area</strong></td>
+                                                <td>Labor-intensive field measurements taking weeks or months to complete.</td>
+                                                <td>Entire site scanned, stitched, and verified within hours with complete data density.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Data Visualization</strong></td>
+                                                <td>2D paper blueprints offering minimal topographical insight.</td>
+                                                <td>High-resolution 3D digital elevation models, orthomosaics, and CAD overlays.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Legal &amp; Title Clarity</strong></td>
+                                                <td>Vulnerable to physical boundary shifts and encroachments over time.</td>
+                                                <td>Permanently archived GPS vertex coordinates tied directly to registry deeds.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h2>5. Buyer Benefits: Complete Transparency &amp; Instant Site Verification</h2>
+                                <p>
+                                    For homebuyers and real estate investors looking at properties near the sacred Ganga River and the upcoming expressway corridors detailed on our <a href="https://gangaresidency.co.in/location.html">Location Page</a>, survey transparency is a decisive factor. 
+                                </p>
+                                <p>
+                                    When you acquire a plot at Ganga Residency, you receive documentation backed by exact GPS vertex coordinates. This enables you or your builder to verify your plot boundaries on site instantly using handheld GNSS tools or mobile GIS applications. Furthermore, our robust infrastructure—highlighted on our <a href="https://gangaresidency.co.in/highlights.html">Highlights Page</a> and <a href="https://gangaresidency.co.in/amenities.html">Amenities Page</a>—is constructed precisely along these digitally audited property lines.
+                                </p>
+
+                                <h2>6. Frequently Asked Questions on Land Demarcation</h2>
+                                <p>
+                                    Here are detailed answers to common buyer queries regarding our land surveying and GPS boundary mapping protocols:
+                                </p>
+
+                                <div class="faq-box-container">
+                                    <div class="faq-item-card">
+                                        <h4><i class="fa-solid fa-circle-question"></i> Can I verify my plot boundaries independently?</h4>
+                                        <p>Yes. Every plot allotment file includes precise corner GPS coordinates, allowing you to cross-verify your exact boundaries with any certified third-party surveyor at any time.</p>
+                                    </div>
+                                    <div class="faq-item-card">
+                                        <h4><i class="fa-solid fa-circle-question"></i> How are permanent boundary markers maintained?</h4>
+                                        <p>Ganga Residency installs reinforced concrete corner pillars embedded with stainless steel identification tags during infrastructural development to ensure physical durability.</p>
+                                    </div>
+                                    <div class="faq-item-card">
+                                        <h4><i class="fa-solid fa-circle-question"></i> Do digital GPS surveys align with government revenue records?</h4>
+                                        <p>Absolutely. All drone mapping and GPS coordinates are meticulously reconciled with Uttar Pradesh state revenue department records (Khatauni and Shajra plans) to ensure unblemished legal titles.</p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    To discover more about our transparent pricing models or to schedule a guided physical site visit, explore our <a href="https://gangaresidency.co.in/contact.html">Contact Page</a> or browse further technical resources in our <a href="https://gangaresidency.co.in/blog/">Blog Directory</a>.
+                                </p>
+
+                                <!-- High Converting CTA Box -->
+                                <div class="dual-cta-box">
+                                    <h3>Experience Absolute Transparency at Ganga Residency</h3>
+                                    <p>Schedule a site visit today and inspect our digitally mapped, survey-verified residential plots in Garhmukteshwar.</p>
+                                    
+                                    <div class="btn-group-flex">
+                                        <a href="https://gangaresidency.co.in/contact.html" class="btn-main-action"><i class="fa-solid fa-map-location-dot"></i> Schedule Site Survey Visit</a>
+                                        <a href="https://gangaresidency.co.in/pricing.html" class="btn-sec-action"><i class="fa-solid fa-file-invoice-dollar"></i> View Available Plots &amp; Prices</a>
+                                    </div>
+                                </div>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Professional Enhanced Footer (Exact Match Preserved) -->
+        <footer class="footer-area style-one bg_cover" data-src="../assets/images/footer/footer-bg.jpg" style="background-color: #0b131d; color: #ffffff; padding-top: 70px;">
+            <div class="container">
+                <div class="footer-top-wrap border-bottom-1 p-b-50" style="border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 40px;">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="footer-widget widget-about">
+                                <span class="brand-logo-text" style="color:#ffffff; font-size: 2rem; margin-bottom: 15px; display: inline-block;">Ganga Residency</span>
+                                <p class="m-t-15 color-white" style="color: #cbd5e1; line-height: 1.7; font-size: 0.98rem;">
+                                    Ganga Residency is Garhmukteshwar’s premier gated plotted township near the sacred Ganga River and Ganga Expressway, delivering unmatched luxury, secure infrastructure, and robust capital appreciation.
+                                </p>
+                                <div class="social-links m-t-20" style="display: flex; gap: 12px; margin-top: 20px;">
+                                    <a href="https://gangaresidency.co.in/" style="width: 38px; height: 38px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; text-decoration: none; transition: background 0.3s;"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://gangaresidency.co.in/" style="width: 38px; height: 38px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; text-decoration: none; transition: background 0.3s;"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://gangaresidency.co.in/" style="width: 38px; height: 38px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; text-decoration: none; transition: background 0.3s;"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://gangaresidency.co.in/" style="width: 38px; height: 38px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; text-decoration: none; transition: background 0.3s;"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="footer-widget widget-links">
+                                <h4 class="widget-title color-white" style="color: #ffffff; font-family: 'Cal Sans', sans-serif; font-size: 1.25rem; margin-bottom: 20px; position: relative; padding-bottom: 8px;">Explore Quick Links</h4>
+                                <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                                    <li><a href="https://gangaresidency.co.in/" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Home</a></li>
+                                    <li><a href="https://gangaresidency.co.in/overview.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Overview</a></li>
+                                    <li><a href="https://gangaresidency.co.in/pricing.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Price List</a></li>
+                                    <li><a href="https://gangaresidency.co.in/highlights.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Highlights</a></li>
+                                    <li><a href="https://gangaresidency.co.in/amenities.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Amenities</a></li>
+                                    <li><a href="https://gangaresidency.co.in/master-plan.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Master Plan</a></li>
+                                    <li><a href="https://gangaresidency.co.in/location.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Location</a></li>
+                                    <li><a href="https://gangaresidency.co.in/blog/" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Blog</a></li>
+                                    <li><a href="https://gangaresidency.co.in/contact.html" style="color: #cbd5e1; text-decoration: none; transition: color 0.2s;"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: #06b6d4; margin-right: 6px;"></i> Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="footer-widget widget-contact">
+                                <h4 class="widget-title color-white" style="color: #ffffff; font-family: 'Cal Sans', sans-serif; font-size: 1.25rem; margin-bottom: 20px;">Official Contact</h4>
+                                <p style="color: #cbd5e1; margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                                    <i class="fa-solid fa-location-dot" style="color: #06b6d4; margin-top: 4px;"></i>
+                                    <span>Garhmukteshwar, Near Ganga Expressway, Western Uttar Pradesh, India</span>
+                                </p>
+                                <p style="color: #cbd5e1; margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+                                    <i class="fa-solid fa-phone" style="color: #06b6d4;"></i>
+                                    <span>+91-9650655124</span>
+                                </p>
+                                <p style="color: #cbd5e1; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                                    <i class="fa-solid fa-globe" style="color: #06b6d4;"></i>
+                                    <span>https://gangaresidency.co.in/</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-wrap p-t-20 p-b-20 text-center" style="border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.9rem; color: #94a3b8;">
+                    <p style="margin: 0;">&copy; 2026 Ganga Residency. All Rights Reserved. Designed &amp; Developed for Real Estate Excellence.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
