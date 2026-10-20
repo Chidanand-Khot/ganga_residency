@@ -55,7 +55,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
-
   <!-- Blog Index -->
   <url>
     <loc>https://gangaresidency.co.in/blog/</loc>
@@ -63,16 +62,15 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <!-- Blog Articles -->
   <url>
-    <loc>https://gangaresidency.co.in/blog/100-sq-yd-vs-150-sq-yd-plots-ganga-residency.html</loc>
+    <loc>https://gangaresidency.co.in/blog/5-year-price-appreciation-forecast-plots-near-ganga-expressway.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/5-year-price-appreciation-forecast-plots-near-ganga-expressway.html</loc>
+    <loc>https://gangaresidency.co.in/blog/100-sq-yd-vs-150-sq-yd-plots-ganga-residency.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -108,14 +106,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/best-residential-plots-in-uttar-pradesh.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://gangaresidency.co.in/blog/best-residential-plots-in-uttar-pradesh-ganga-residency.html</loc>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/best-residential-plots-in-uttar-pradesh-ganga-residency.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://gangaresidency.co.in/blog/best-residential-plots-in-uttar-pradesh.html</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -486,6 +484,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gangaresidency.co.in/blog/garhmukteshwar-ganga-mela-2026-buy-residential-plots-from-ganga-residency.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/garhmukteshwar-ganga-mela-2026-plot-kharide-ganga-residency-hindi.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gangaresidency.co.in/blog/garhmukteshwar-job-market-employment-opportunities-nearby.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -642,6 +652,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gangaresidency.co.in/blog/kartik-purnima-ganga-mela-garhmukteshwar-plot-hindi.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/kartik-purnima-mela-2026-rera-approved-plots-in-garhmukteshwar-ganga-residency.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gangaresidency.co.in/blog/life-at-ganga-residency-community-living-guide.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -774,13 +796,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/residential-plots-in-garhmukteshwar.html</loc>
+    <loc>https://gangaresidency.co.in/blog/residential-plots-in-garhmukteshwar-for-investment.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/blog/residential-plots-in-garhmukteshwar-for-investment.html</loc>
+    <loc>https://gangaresidency.co.in/blog/residential-plots-in-garhmukteshwar.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
